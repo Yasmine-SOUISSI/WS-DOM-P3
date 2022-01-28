@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <h1 id="title" class="title" style="color: black">Hello</h1>
+        <h1 id="title" class="title" style="color: black">Document</h1>
+        <!--  <div>
+            <span class="qte">0</span>
+            <button class="plus">+</button>
+            <span class="qte">0</span> <button class="plus">+</button>
+            <span class="qte">0</span> <button class="plus">+</button>
+            <span class="qte">0</span> <button class="plus">+</button>
+            <span class="qte">0</span> 
+        </div> 
+    -->
+        <section id="items">
+            <!--first product-->
+            <div class="Item">
+                <!-- <img
+                src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/17fc867b5e4a4a489535ac6300bad9bb_9366/Fluidflow_2.0_Shoes_White_FY5961_01_standard.jpg"
+                alt="iphone 12"
+            /> -->
+                <div class="info">
+                    <p class="description">
+                        Adidas Fluidflow 2.0 Shoes | Adidas <br />
+                        Pacific Blue
+                    </p>
+                    <div class="quantity">
+                        <button class="minus-btn">-</button>
+                        <input type="text" class="Quant" value=" 1" readonly />
+                        <button class="plus-btn">+</button>
+                    </div>
+                    <p class="price">1379.00</p>
+                </div>
+
+                <button class="delete">X</button>
+                <button class="like">
+                    <i class="fa fa-heart fa-2x" style="color: black"></i>
+                </button>
+            </div>
+            <div class="Item">
+                <!-- <img
+                src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/17fc867b5e4a4a489535ac6300bad9bb_9366/Fluidflow_2.0_Shoes_White_FY5961_01_standard.jpg"
+                alt="iphone 12"
+            /> -->
+                <div class="info">
+                    <p class="description">
+                        Adidas Fluidflow 2.0 Shoes | Adidas <br />
+                        Pacific Blue
+                    </p>
+                    <div class="quantity">
+                        <button class="minus-btn btn btn-outline-light">
+                            -
+                        </button>
+                        <input type="text" class="Quant" value=" 1" readonly />
+                        <button class="plus-btn btn btn-outline-light">
+                            +
+                        </button>
+                    </div>
+                    <p class="price">1379.00</p>
+                </div>
+                <button class="like">
+                    <i class="fa fa-heart fa-2x" style="color: black"></i>
+                </button>
+                <button class="delete">X</button>
+            </div>
+            <div class="Item">
+                <!-- <img
+                src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/17fc867b5e4a4a489535ac6300bad9bb_9366/Fluidflow_2.0_Shoes_White_FY5961_01_standard.jpg"
+                alt="iphone 12"
+            /> -->
+                <div class="info">
+                    <p class="description">
+                        Adidas Fluidflow 2.0 Shoes | Adidas <br />
+                        Pacific Blue
+                    </p>
+                    <div class="quantity">
+                        <button class="minus-btn btn btn-outline-light">
+                            -
+                        </button>
+                        <input type="text" class="Quant" value=" 1" readonly />
+                        <button class="plus-btn btn btn-outline-light">
+                            +
+                        </button>
+                    </div>
+                    <p class="price">1379.00</p>
+                </div>
+                <button class="like">
+                    <i class="fa fa-heart fa-2x" style="color: black"></i>
+                </button>
+                <button class="delete">X</button>
+            </div>
+        </section>
+        <div id="total-price">
+            <p>Total Price:</p>
+            <span id="finalPrice">1379.00 </span>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
